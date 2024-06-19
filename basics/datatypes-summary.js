@@ -38,3 +38,26 @@ console.log(typeof scoreValue);
 console.log(typeof myfunction);
 console.log(typeof heroes);
 console.log(typeof anotherId);
+
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "bhavika_24"
+
+let anothername = myYoutubename
+anothername = "UB_2420"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "bhavikasehgal2@gmail.com"
+    
+}
+
+let userTwo = userOne
+
+userTwo.email = "22bsm013@iiitdmj.ac.in"
+
+console.log(userOne.email);
+console.log(userTwo.email); 
